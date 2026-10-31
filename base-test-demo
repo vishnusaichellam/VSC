@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Base Test Demo</title>
+</head>
+<body>
+
+<h1>Base Test Demo</h1>
+
+<p id="status">Application loaded successfully</p>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Demo</title>
+</head>
+<body>
+
+<h1>Login Page</h1>
+
+<label>Username</label>
+<input id="username" type="text">
+
+<br><br>
+
+<label>Password</label>
+<input id="password" type="password">
+
+<br><br>
+
+<button id="loginButton" onclick="login()">Login</button>
+
+<p id="message"></p>
+
+<script>
+    function login() {
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+
+        if (username === "Vishnu" && password === "12345") {
+            document.getElementById("message").innerText =
+                "Login successful";
+        } else {
+            document.getElementById("message").innerText =
+                "Invalid credentials";
+        }
+    }
+</script>
+
+</body>
+</html>

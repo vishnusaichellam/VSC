@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inner Frame</title>
+</head>
+<body>
+
+<h2>Inner Frame</h2>
+
+<input id="nameInput"
+       type="text"
+       placeholder="Enter name">
+
+<p id="result"></p>
+
+<script>
+    document.getElementById("nameInput")
+        .addEventListener("input", function() {
+
+            document.getElementById("result")
+                .innerText = this.value;
+
+        });
+</script>
+
+</body>
+</html>

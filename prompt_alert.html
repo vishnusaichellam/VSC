@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prompt Alert Test</title>
+</head>
+
+<body>
+
+<h2>Prompt Alert Test</h2>
+
+<button id="promptButton" onclick="openPrompt()">
+    Open Prompt
+</button>
+
+<p id="result"></p>
+
+<script>
+
+    function openPrompt() {
+
+        let name = prompt("Enter your name:", "");
+
+        document.getElementById("result").innerText = name;
+
+    }
+
+</script>
+
+</body>
+</html>
